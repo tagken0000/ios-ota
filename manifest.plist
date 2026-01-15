@@ -7,26 +7,27 @@
         <dict>
             <key>assets</key>
             <array>
+                <!-- IPAファイルのURL -->
                 <dict>
                     <key>kind</key>
                     <string>software-package</string>
                     <key>url</key>
-                    <string>https://tagken0000.github.io/ios-ota/MobilePASS.ipa</string>
+                    <string>https://USERNAME.github.io/ios-ota/MobilePASS.ipa</string>
                 </dict>
+                <!-- アイコン画像のURL（任意） -->
                 <dict>
-                    <key>kind</key>
-                    <string>display-image</string>
-                    <key>url</key>
-                    <string>https://tagken0000.github.io/ios-ota/icon.png</string>
-                </dict>
-                           <string>1.0.0</string>
+                   >
+            <dict>
+                <key>bundle-identifier</key>
+                <string>com.safenetinc.mpbasic</string>
+                <key>bundle-version</key>
+                <string>8.4.18</string>
                 <key>kind</key>
                 <string>software</string>
                 <key>title</key>
-                <string>MyApp</string>
+                <string>MobilePASS</string>
             </dict>
         </dict>
     </array>
 </dict>
 </plist>
-
